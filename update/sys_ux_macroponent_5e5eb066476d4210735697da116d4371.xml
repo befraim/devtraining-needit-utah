@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "6f51fcc407363e5a52ac464315713ee9",
+            "type": "MACROPONENT"
+        },
+        "elementId": "empty_state_1",
+        "elementLabel": "Empty state 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": ""
+        },
+        "isNonDestructive": false,
+        "overrides": null,
+        "propertyValues": {
+            "actions": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "alignment": {
+                "type": "JSON_LITERAL",
+                "value": "vertical-centered"
+            },
+            "content": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "heading": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "label": "Page not found",
+                    "level": "3"
+                }
+            },
+            "illustration": {
+                "type": "JSON_LITERAL",
+                "value": "unconfigured"
+            }
+        },
+        "slot": "Content",
+        "styles": {}
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description>Notify users when the system can't find the data requested. This error indicates that the browser was able to communicate with the target server, but the URL path provided no information.</description>
+        <dispatched_events>d9f32aa20b2210108e64aabcb4673a61,69f32aa20b2210108e64aabcb4673a67,edf32aa20b2210108e64aabcb4673a72</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": {
+                "sysId": "da5eb066476d4210735697da116d4375"
+            },
+            "declarativeAction": null,
+            "event": null,
+            "operation": null,
+            "targetId": "ckhbhhoiileeaaaaddjjddhiiccbudjcceerdd",
+            "type": "CLIENT_SCRIPT"
+        }
+    ]
+}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "rules": {
+                    "grid-area": "content",
+                    "min-height": "50px"
+                },
+                "slotName": "Content",
+                "styles": {
+                    "display": "flex",
+                    "margin-top": "50px"
+                }
+            }
+        ],
+        "root": null,
+        "rules": {
+            "grid-gap": "1px",
+            "grid-template-areas": "\"content\"",
+            "grid-template-columns": "1fr",
+            "grid-template-rows": "1fr",
+            "height": "100%"
+        },
+        "styles": null,
+        "templateId": null,
+        "type": "grid"
+    }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Simple List</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "Page not found",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 16:59:05</sys_created_on>
+        <sys_id>5e5eb066476d4210735697da116d4371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_5e5eb066476d4210735697da116d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 16:59:07</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e5eb066476d4210735697da116d4371"/>
+</record_update>
